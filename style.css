@@ -2,6 +2,7 @@
 primary color     : #4E47FF
 bg color          : #F5F8FF
 headline color    : #252432
+p tag color       : #252432b5
 */
 
 * {
@@ -102,3 +103,38 @@ section.seeIt {
 }
 
 /* seeit section end */
+
+/* userInfo section start */
+
+section.userInfo {
+  margin-bottom: 100px;
+  background: #4e47ff1f;
+  border-radius: 20px;
+  padding: 35px 0px;
+}
+
+.userInfo h4 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.userInfo .info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.userInfo .disit {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #4e47ff;
+}
+
+.userInfo .title {
+  text-align: center;
+  color: #252432b5;
+  padding-top: 5px;
+}
+
+/* userInfo section end */
