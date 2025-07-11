@@ -10,21 +10,95 @@ headline color    : #252432
   font-family: arial;
 }
 
-/* shared style */
-
 body {
   background: #f5f8ff;
 }
 
+/* shared style start*/
 .btn {
   background: #4e47ff;
   color: white;
   text-decoration: none;
   display: inline-block;
-  height: 35px;
-  line-height: 35px;
-  padding: 0px 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 35px;
   box-sizing: border-box;
   border-radius: 5px;
   font-size: 14px;
 }
+/* shared style end */
+
+/* header section start */
+header {
+  height: 100vh;
+  background-image: url(img/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+header .container {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+}
+
+header .headline {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 60px;
+  width: 750px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* header section end */
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* seeit section start */
+section.seeIt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.seeIt .info {
+}
+
+.seeIt h3 {
+  font-size: 35px;
+}
+
+.seeIt p {
+  color: #252432b5;
+  padding: 30px 0px;
+  width: 380px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.seeIt img {
+  width: 350px;
+  border-radius: 40px;
+}
+
+/* seeit section end */
