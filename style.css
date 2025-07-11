@@ -233,6 +233,7 @@ section.bonus img {
 
 /* bonus section end */
 
+/* form section style start */
 section.form {
   display: flex;
   align-items: center;
@@ -274,3 +275,43 @@ section.form form textarea {
 .form form input.btn {
   margin-top: 20px;
 }
+
+/* form section style end */
+
+/* footer section style start */
+footer {
+  padding: 100px 0px 75px 0px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer img {
+  width: 265px;
+}
+
+footer p {
+  text-align: center;
+  width: 467px;
+  font-size: 15px;
+  color: #0000005e;
+  padding: 25px 0px;
+}
+
+nav.ftrnav {
+  padding: 0;
+}
+
+nav.ftrnav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav.ftrnav ul a {
+  color: #0000005e;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 20px;
+}
+/* footer section style start */
