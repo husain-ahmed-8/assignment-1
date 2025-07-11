@@ -28,6 +28,14 @@ body {
   border-radius: 8px;
   font-size: 14px;
 }
+
+.btn:hover {
+  background: white;
+  color: #4e47ff;
+  border: 2px solid #4e47ff;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
 /* shared style end */
 
 /* header section start */
@@ -274,6 +282,7 @@ section.form form textarea {
 
 .form form input.btn {
   margin-top: 20px;
+  padding: 0;
 }
 
 /* form section style end */
