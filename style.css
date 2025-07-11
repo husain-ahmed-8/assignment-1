@@ -1,0 +1,30 @@
+/* 
+primary color     : #4E47FF
+bg color          : #F5F8FF
+headline color    : #252432
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+/* shared style */
+
+body {
+  background: #f5f8ff;
+}
+
+.btn {
+  background: #4e47ff;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+}
