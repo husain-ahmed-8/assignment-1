@@ -25,7 +25,7 @@ body {
   line-height: 40px;
   padding: 0px 35px;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 14px;
 }
 /* shared style end */
@@ -202,3 +202,75 @@ section.review .reviewer .date {
 }
 
 /* review section end */
+
+/* bonus section start */
+
+section.bonus {
+  padding: 60px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+section.bonus h2 {
+  font-size: 40px;
+}
+
+section.bonus p {
+  padding: 25px 0px 10px 0px;
+  color: #252432b5;
+  font-size: 14px;
+}
+
+section.bonus p a.btn {
+}
+
+section.bonus img {
+  padding-top: 15px;
+  border-radius: 50px;
+  width: 90%;
+}
+
+/* bonus section end */
+
+section.form {
+  display: flex;
+  align-items: center;
+}
+
+section.form h2 {
+  width: 50%;
+  font-size: 80px;
+}
+
+section.form form {
+  width: 45%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+section.form form input,
+section.form form textarea {
+  border: 1px solid #00000021;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+section.form form label {
+  padding: 15px 0px 5px 0px;
+}
+
+section.form form textarea {
+  max-height: 150px;
+  min-height: 150px;
+  resize: block;
+}
+
+.form form input.btn {
+  margin-top: 20px;
+}
